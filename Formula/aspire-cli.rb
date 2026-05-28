@@ -24,7 +24,7 @@ class AspireCli < Formula
   end
 
   def caveats
-    <<EOS
+    <<-EOS
                                                               
                      _          
      /\             (_)         
