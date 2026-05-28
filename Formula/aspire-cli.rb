@@ -24,6 +24,6 @@ class AspireCli < Formula
   end
 
   test do
-    assert_match "aspire", shell_output("#{bin}/aspire --version")
+    assert_match version.to_s, shell_output("#{bin}/aspire --version")
   end
 end
