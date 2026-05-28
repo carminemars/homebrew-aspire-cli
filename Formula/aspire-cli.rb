@@ -20,10 +20,10 @@ class AspireCli < Formula
   end
 
   def install
-    bin.install "aspire-cli"
+    bin.install "aspire"
   end
 
   test do
-    assert_match "aspire-cli", shell_output("#{bin}/aspire-cli --version")
+    assert_match "aspire", shell_output("#{bin}/aspire --version")
   end
 end
