@@ -65,7 +65,7 @@ class AspireCli < Formula
                   Aspire CLI 13.3.5 Installed succesfully!
                   Start with aspire --help
                                                                    
-    EOS                                                       
+    EOS
   end
 
   test do
