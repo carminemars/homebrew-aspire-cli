@@ -24,20 +24,10 @@ class AspireCli < Formula
   end
 
   def caveats
-    <<-EOS
+    <<~EOS
                                                               
-                     _          
-     /\             (_)         
-    /  \   ___ _ __  _ _ __ ___ 
-   / /\ \ / __| '_ \| | '__/ _ \
-  / ____ \\__ \ |_) | | | |  __/
- /_/    \_\___/ .__/|_|_|  \___|
-              | |               
-              |_|                   
-                                  
-    
-
- Run: aspire --help
+Hey there! Aspire CLI installed succesfully!
+Run: aspire --help
                                                                    
     EOS
   end
