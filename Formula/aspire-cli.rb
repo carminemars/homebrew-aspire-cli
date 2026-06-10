@@ -6,17 +6,17 @@ class AspireCli < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/microsoft/aspire/releases/download/v13.3.5/aspire-cli-osx-arm64-13.3.5.tar.gz"
-      sha256 "7ae8181bec6dee12d1cfb039dd201d7cfb71b51c674b0f06a853f402742afbd3"
+      url "https://github.com/microsoft/aspire/releases/download/v13.4.3/aspire-cli-osx-arm64-13.4.3.tar.gz"
+      sha256 "fcc5516aa148933cee8b842e4d808947393c88d930e534ebb722661ebd50a98a"
     else
-      url "https://github.com/microsoft/aspire/releases/download/v13.3.5/aspire-cli-osx-x64-13.3.5.tar.gz"
-      sha256 "dafcf1633a6f2970c017d75287f502b0a033d65ff6acac02899f2761f8d16c62"
+      url "https://github.com/microsoft/aspire/releases/download/v13.4.3/aspire-cli-osx-x64-13.4.3.tar.gz"
+      sha256 "ffd5d0b92e01440954fc2a4bc3a53fc67db6e83c64986fec8e07fd1f714ed31a"
     end
   end
 
   on_linux do
-    url "https://github.com/microsoft/aspire/releases/download/v13.3.5/aspire-cli-linux-musl-x64-13.3.5.tar.gz"
-    sha256 "b3a7c77490ca9bf1fd433b6e3b100bea7bfa32d1529904d6617a04281e562f3c"
+    url "https://github.com/microsoft/aspire/releases/download/v13.4.3/aspire-cli-linux-musl-x64-13.4.3.tar.gz"
+    sha256 "013b48f892c4a9eca8fad8e1f9b02c2d9006c64b67011b19dd013c92f25c9dd0"
   end
 
   def install
