@@ -1,7 +1,7 @@
 class AspireCli < Formula
   desc "Aspire CLI"
   homepage "https://github.com/microsoft/aspire"
-  version "13.3.5"
+  version "13.4.3"
   license "MIT"
 
   on_macos do
